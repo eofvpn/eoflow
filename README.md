@@ -14,7 +14,8 @@
 | Платформа | Устройства | Версия | Файл |
 |---|---|---|---|
 | Android | Смартфоны и планшеты, Android 8.0+ | 6.1.5 (сборка 6012) | [EOFLOW-6.1.5-android-universal.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.5/EOFLOW-6.1.5-android-universal.apk) |
-| Android TV | Телевизоры и приставки, Android 14+, ARM64 | 6.1.5 (сборка 6012) | [EOFLOW-6.1.5-android-tv-arm64-v8a.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.5/EOFLOW-6.1.5-android-tv-arm64-v8a.apk) |
+| Android TV | Телевизоры и приставки с 64-битным процессором (ARM64), Android 8.0+ | 6.1.5 (сборка 6012) | [EOFLOW-6.1.5-android-tv-arm64-v8a.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.5/EOFLOW-6.1.5-android-tv-arm64-v8a.apk) |
+| Android TV | Телевизоры и приставки с 32-битным процессором (ARMv7), Android 8.0+ | 6.1.5 (сборка 6012) | [EOFLOW-6.1.5-android-tv-armeabi-v7a.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.5/EOFLOW-6.1.5-android-tv-armeabi-v7a.apk) |
 | Windows | Компьютеры и ноутбуки | 6.1.0 | [EOFLOW-6.1.0-windows-setup.exe](https://github.com/eofvpn/eoflow/releases/download/windows-v6.1.0/EOFLOW-6.1.0-windows-setup.exe) |
 
 ## Android
@@ -22,7 +23,9 @@
 **Какой файл выбрать**
 
 - `EOFLOW-…-android-universal.apk` — универсальная сборка: подходит для любых смартфонов, планшетов и приставок (ARM64, ARMv7, x86_64). Если не уверены — берите её.
-- `EOFLOW-…-android-tv-arm64-v8a.apk` — облегчённая сборка для Android TV на Android 14 и новее с 64-битным процессором. Если приставка старее или не устанавливает этот файл — используйте универсальную сборку.
+- `EOFLOW-…-android-tv-arm64-v8a.apk` — облегчённая сборка для Android TV с 64-битным процессором. Подходит большинству современных телевизоров и приставок.
+- `EOFLOW-…-android-tv-armeabi-v7a.apk` — облегчённая сборка для Android TV с 32-битным процессором: старые и бюджетные приставки. Если 64-битная TV-сборка не устанавливается — попробуйте эту.
+- Если ни одна TV-сборка не подходит — используйте универсальную.
 
 **Установка из файла**
 
@@ -54,6 +57,7 @@ SHA-256: 07:E5:C2:FA:BF:18:CA:FE:71:ED:6A:A5:A9:59:1C:57:BD:57:C0:A7:0E:40:42:86
 |---|---|
 | EOFLOW-6.1.5-android-universal.apk | `23a5b8aa653522425cae5adef038a08ca87d753239c8058eb27f5069ac07bdc0` |
 | EOFLOW-6.1.5-android-tv-arm64-v8a.apk | `485b14b2f924383f82af400acb60889518a3125e34e2074fb2f2b3dacaa629c5` |
+| EOFLOW-6.1.5-android-tv-armeabi-v7a.apk | `59edd155aa2f265334a004a4c77dfccac047a9856da2768538a82767a9199779` |
 | EOFLOW-6.1.0-windows-setup.exe | `7285f3b086d0af3625101a9647c74115094d753e831eea3e6742aca20429ca5a` |
 
 Проверить сумму скачанного файла:
