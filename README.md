@@ -7,17 +7,20 @@
 Все файлы публикуются только в разделе [Releases](https://github.com/eofvpn/eoflow/releases). Релизы разделены по платформам:
 
 - `android-vX.Y.Z` — Android и Android TV;
-- `windows-vX.Y.Z` — Windows.
+- `windows-vX.Y.Z` — Windows;
+- `linux-vX.Y.Z` — Linux (Ubuntu, Debian).
 
 ## Актуальные версии
 
 | Платформа | Устройства | Версия | Файл |
 |---|---|---|---|
-| Android | Любые смартфоны, планшеты и Android TV, Android 8.0+ | 6.1.7 (сборка 6014) | [EOFLOW-6.1.7-android-universal.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.7/EOFLOW-6.1.7-android-universal.apk) |
-| Android | 64-битный процессор ARM (ARM64): большинство современных смартфонов, планшетов и телевизоров | 6.1.7 (сборка 6014) | [EOFLOW-6.1.7-android-arm64-v8a.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.7/EOFLOW-6.1.7-android-arm64-v8a.apk) |
-| Android | 32-битный процессор ARM (ARMv7): старые и бюджетные смартфоны и TV-приставки | 6.1.7 (сборка 6014) | [EOFLOW-6.1.7-android-armeabi-v7a.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.7/EOFLOW-6.1.7-android-armeabi-v7a.apk) |
-| Android | Процессор x86_64 (Intel/AMD): Chromebook, эмуляторы, некоторые планшеты и приставки | 6.1.7 (сборка 6014) | [EOFLOW-6.1.7-android-x86_64.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.7/EOFLOW-6.1.7-android-x86_64.apk) |
-| Windows | Компьютеры и ноутбуки | 6.1.7 | [EOFLOW-6.1.7-windows-setup.exe](https://github.com/eofvpn/eoflow/releases/download/windows-v6.1.7/EOFLOW-6.1.7-windows-setup.exe) |
+| Android | Любые смартфоны, планшеты и Android TV, Android 8.0+ | 6.1.10 (сборка 6017) | [EOFLOW-6.1.10-android-universal.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.10/EOFLOW-6.1.10-android-universal.apk) |
+| Android | 64-битный процессор ARM (ARM64): большинство современных смартфонов, планшетов и телевизоров | 6.1.10 (сборка 6017) | [EOFLOW-6.1.10-android-arm64-v8a.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.10/EOFLOW-6.1.10-android-arm64-v8a.apk) |
+| Android | 32-битный процессор ARM (ARMv7): старые и бюджетные смартфоны и TV-приставки | 6.1.10 (сборка 6017) | [EOFLOW-6.1.10-android-armeabi-v7a.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.10/EOFLOW-6.1.10-android-armeabi-v7a.apk) |
+| Android | Процессор x86_64 (Intel/AMD): Chromebook, эмуляторы, некоторые планшеты и приставки | 6.1.10 (сборка 6017) | [EOFLOW-6.1.10-android-x86_64.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.10/EOFLOW-6.1.10-android-x86_64.apk) |
+| Windows | Компьютеры и ноутбуки | 6.1.10 | [EOFLOW-6.1.10-windows-setup.exe](https://github.com/eofvpn/eoflow/releases/download/windows-v6.1.10/EOFLOW-6.1.10-windows-setup.exe) |
+| Linux | Ubuntu 24.04+ и Debian 13+, процессоры Intel/AMD (x86_64) | 6.1.10 (сборка 6017) | [EOFLOW-6.1.10-linux-amd64.deb](https://github.com/eofvpn/eoflow/releases/download/linux-v6.1.10/EOFLOW-6.1.10-linux-amd64.deb) |
+| Linux | Ubuntu 24.04+ и Debian 13+, процессоры ARM64 | 6.1.10 (сборка 6017) | [EOFLOW-6.1.10-linux-arm64.deb](https://github.com/eofvpn/eoflow/releases/download/linux-v6.1.10/EOFLOW-6.1.10-linux-arm64.deb) |
 
 Предыдущие версии доступны в разделе [Releases](https://github.com/eofvpn/eoflow/releases).
 
@@ -52,6 +55,22 @@
 1. Скачайте `EOFLOW-…-windows-setup.exe`.
 2. Запустите установщик и следуйте инструкциям.
 
+## Linux
+
+Пакеты .deb для Ubuntu 24.04+ и Debian 13+.
+
+- `EOFLOW-…-linux-amd64.deb` — компьютеры и ноутбуки с процессорами Intel/AMD. Если не уверены — берите его.
+- `EOFLOW-…-linux-arm64.deb` — устройства с 64-битным процессором ARM.
+
+1. Скачайте пакет для своей архитектуры. Узнать её можно командой `dpkg --print-architecture`.
+2. Установите его, находясь в папке с файлом:
+
+```
+sudo apt install ./EOFLOW-6.1.10-linux-amd64.deb
+```
+
+Недостающие зависимости apt установит сам.
+
 ## Проверка подлинности
 
 Все Android-сборки подписаны одним сертификатом разработчика (идентификатор приложения `cc.eofvpn.app`):
@@ -70,11 +89,13 @@ SHA-256: 07:E5:C2:FA:BF:18:CA:FE:71:ED:6A:A5:A9:59:1C:57:BD:57:C0:A7:0E:40:42:86
 
 | Файл | SHA-256 |
 |---|---|
-| EOFLOW-6.1.7-android-universal.apk | `ffd58ec567900dc1e0ce1d3cdae596b9da9d3d1e83fa4381a32f0a346d8dd26a` |
-| EOFLOW-6.1.7-android-arm64-v8a.apk | `275af4552ce9d99ecaa70c800fe581575c54dfca2188719a22315408b3ba6688` |
-| EOFLOW-6.1.7-android-armeabi-v7a.apk | `ba1ea27dd32ff0fc0e7d3dc5231225180fb6257205e6b9836dc5bf1f398c8a52` |
-| EOFLOW-6.1.7-android-x86_64.apk | `a959fac23d737c6909d281185972aaf934d77c4320afee1d2bde1d790b10e566` |
-| EOFLOW-6.1.7-windows-setup.exe | `9507f6232854dad2e1fcc23550316ae18328110f7e1e49459895c45d9bcbedfe` |
+| EOFLOW-6.1.10-android-universal.apk | `0b7e97a1f38068068bd004193ecb343cbf9f0accb1f577108e6e1936067ab1cd` |
+| EOFLOW-6.1.10-android-arm64-v8a.apk | `e986c32f64797fb45201ec20e4875c48c51c1e1b3052039b811ca78a74a106b2` |
+| EOFLOW-6.1.10-android-armeabi-v7a.apk | `cb1bbd20534c161084532b544db03fd154b7b98f89b20f99cc10b6b87d3683a9` |
+| EOFLOW-6.1.10-android-x86_64.apk | `94f167107f4bc7eeea5d314f883813bf19497af2c0968a6841d2ef456f319608` |
+| EOFLOW-6.1.10-windows-setup.exe | `113807b36058bde6623f1987043b441eceba42c880ad474d6ead4711acfb5ae3` |
+| EOFLOW-6.1.10-linux-amd64.deb | `be556e067c0a35d9bece835a23963ac3c57e57d455b685d3b7bba3ff1c5fd3cf` |
+| EOFLOW-6.1.10-linux-arm64.deb | `9dbf96056461387078e2cfec57bdd72690cd1acecfd4ffd4eb3754ad218f4d0c` |
 
 Проверить сумму скачанного файла:
 
