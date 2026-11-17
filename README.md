@@ -14,10 +14,10 @@
 
 | Платформа | Устройства | Версия | Файл |
 |---|---|---|---|
-| Android | Любые смартфоны, планшеты и Android TV, Android 8.0+ | 6.1.15 (сборка 6038) | [EOFLOW-6.1.15-android-universal.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.15/EOFLOW-6.1.15-android-universal.apk) |
-| Android | 64-битный процессор ARM (ARM64): большинство современных смартфонов, планшетов и телевизоров | 6.1.15 (сборка 6038) | [EOFLOW-6.1.15-android-arm64-v8a.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.15/EOFLOW-6.1.15-android-arm64-v8a.apk) |
-| Android | 32-битный процессор ARM (ARMv7): старые и бюджетные смартфоны и TV-приставки | 6.1.15 (сборка 6038) | [EOFLOW-6.1.15-android-armeabi-v7a.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.15/EOFLOW-6.1.15-android-armeabi-v7a.apk) |
-| Android | Процессор x86_64 (Intel/AMD): Chromebook, эмуляторы, некоторые планшеты и приставки | 6.1.15 (сборка 6038) | [EOFLOW-6.1.15-android-x86_64.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.15/EOFLOW-6.1.15-android-x86_64.apk) |
+| Android | Любые смартфоны, планшеты и Android TV, Android 8.0+ | 6.1.15 (сборка 6039) | [EOFLOW-6.1.15-android-universal.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.15/EOFLOW-6.1.15-android-universal.apk) |
+| Android | 64-битный процессор ARM (ARM64): большинство современных смартфонов, планшетов и телевизоров | 6.1.15 (сборка 6039) | [EOFLOW-6.1.15-android-arm64-v8a.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.15/EOFLOW-6.1.15-android-arm64-v8a.apk) |
+| Android | 32-битный процессор ARM (ARMv7): старые и бюджетные смартфоны и TV-приставки | 6.1.15 (сборка 6039) | [EOFLOW-6.1.15-android-armeabi-v7a.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.15/EOFLOW-6.1.15-android-armeabi-v7a.apk) |
+| Android | Процессор x86_64 (Intel/AMD): Chromebook, эмуляторы, некоторые планшеты и приставки | 6.1.15 (сборка 6039) | [EOFLOW-6.1.15-android-x86_64.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.15/EOFLOW-6.1.15-android-x86_64.apk) |
 | Windows | Компьютеры и ноутбуки | 6.1.15 | [EOFLOW-6.1.15-windows-setup.exe](https://github.com/eofvpn/eoflow/releases/download/windows-v6.1.15/EOFLOW-6.1.15-windows-setup.exe) |
 | Linux | Ubuntu 24.04+ и Debian 13+, процессоры Intel/AMD (x86_64) | 6.1.15 (сборка 6038) | [EOFLOW-6.1.15-linux-amd64.deb](https://github.com/eofvpn/eoflow/releases/download/linux-v6.1.15/EOFLOW-6.1.15-linux-amd64.deb) |
 | Linux | Ubuntu 24.04+ и Debian 13+, процессоры ARM64 | 6.1.15 (сборка 6038) | [EOFLOW-6.1.15-linux-arm64.deb](https://github.com/eofvpn/eoflow/releases/download/linux-v6.1.15/EOFLOW-6.1.15-linux-arm64.deb) |
@@ -89,10 +89,10 @@ SHA-256: 07:E5:C2:FA:BF:18:CA:FE:71:ED:6A:A5:A9:59:1C:57:BD:57:C0:A7:0E:40:42:86
 
 | Файл | SHA-256 |
 |---|---|
-| EOFLOW-6.1.15-android-universal.apk | `5c458238cae6374a7f924664b7f26753dd6c1db2c3011667c35b4cf179c6b193` |
-| EOFLOW-6.1.15-android-arm64-v8a.apk | `f58520c99e66f35b7d5731e41afb291b6d76e3fcbb10b0426a6f5b839fe5ecb3` |
-| EOFLOW-6.1.15-android-armeabi-v7a.apk | `2c68db518d4520933179be39fe82dd17b6cb97c1a0f76a67789ed87b59576832` |
-| EOFLOW-6.1.15-android-x86_64.apk | `266b59a1158f679e00ccf17a7eefca856885c12c526bf33deb72905bb7ee3933` |
+| EOFLOW-6.1.15-android-universal.apk | `c083a717b81956e9b32fe278ca49aeb39b5e89e1ba501a34fc551e4809c1795a` |
+| EOFLOW-6.1.15-android-arm64-v8a.apk | `e925ad70b5e2c6115dcf4c32cf4c811d5efd2465124fb4c35b22c43603f032c0` |
+| EOFLOW-6.1.15-android-armeabi-v7a.apk | `95deec13aec65b4d2693fcc29d2c5bdaa6b3c11409b8f9c64db5cc7a3d1e78eb` |
+| EOFLOW-6.1.15-android-x86_64.apk | `85b55cac0ba0e9f269ad496200f2db764f86fc5a459dbabcd812cf13243d28d7` |
 | EOFLOW-6.1.15-windows-setup.exe | `523abbda6bda34ccf472fa1a93ed9e66585dbdb1ff9c87ae5f0f8060712daeda` |
 | EOFLOW-6.1.15-linux-amd64.deb | `4b2fffe48bed7ac529396bb8e371bc599865bda6b428f92c1d55c2da526c054d` |
 | EOFLOW-6.1.15-linux-arm64.deb | `f78a8e3b1f883d3d1024dff8085011fad320868eed6d34b72e8d4ad986248b23` |
