@@ -18,7 +18,7 @@
 | Android | 64-битный процессор ARM (ARM64): большинство современных смартфонов, планшетов и телевизоров | 6.1.15 (сборка 6038) | [EOFLOW-6.1.15-android-arm64-v8a.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.15/EOFLOW-6.1.15-android-arm64-v8a.apk) |
 | Android | 32-битный процессор ARM (ARMv7): старые и бюджетные смартфоны и TV-приставки | 6.1.15 (сборка 6038) | [EOFLOW-6.1.15-android-armeabi-v7a.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.15/EOFLOW-6.1.15-android-armeabi-v7a.apk) |
 | Android | Процессор x86_64 (Intel/AMD): Chromebook, эмуляторы, некоторые планшеты и приставки | 6.1.15 (сборка 6038) | [EOFLOW-6.1.15-android-x86_64.apk](https://github.com/eofvpn/eoflow/releases/download/android-v6.1.15/EOFLOW-6.1.15-android-x86_64.apk) |
-| Windows | Компьютеры и ноутбуки | 6.1.11 | [EOFLOW-6.1.11-windows-setup.exe](https://github.com/eofvpn/eoflow/releases/download/windows-v6.1.11/EOFLOW-6.1.11-windows-setup.exe) |
+| Windows | Компьютеры и ноутбуки | 6.1.15 | [EOFLOW-6.1.15-windows-setup.exe](https://github.com/eofvpn/eoflow/releases/download/windows-v6.1.15/EOFLOW-6.1.15-windows-setup.exe) |
 | Linux | Ubuntu 24.04+ и Debian 13+, процессоры Intel/AMD (x86_64) | 6.1.15 (сборка 6038) | [EOFLOW-6.1.15-linux-amd64.deb](https://github.com/eofvpn/eoflow/releases/download/linux-v6.1.15/EOFLOW-6.1.15-linux-amd64.deb) |
 | Linux | Ubuntu 24.04+ и Debian 13+, процессоры ARM64 | 6.1.15 (сборка 6038) | [EOFLOW-6.1.15-linux-arm64.deb](https://github.com/eofvpn/eoflow/releases/download/linux-v6.1.15/EOFLOW-6.1.15-linux-arm64.deb) |
 
@@ -93,7 +93,7 @@ SHA-256: 07:E5:C2:FA:BF:18:CA:FE:71:ED:6A:A5:A9:59:1C:57:BD:57:C0:A7:0E:40:42:86
 | EOFLOW-6.1.15-android-arm64-v8a.apk | `f58520c99e66f35b7d5731e41afb291b6d76e3fcbb10b0426a6f5b839fe5ecb3` |
 | EOFLOW-6.1.15-android-armeabi-v7a.apk | `2c68db518d4520933179be39fe82dd17b6cb97c1a0f76a67789ed87b59576832` |
 | EOFLOW-6.1.15-android-x86_64.apk | `266b59a1158f679e00ccf17a7eefca856885c12c526bf33deb72905bb7ee3933` |
-| EOFLOW-6.1.11-windows-setup.exe | `806f484833c5b747d99eaff5ac105f4760d2b371e5669c3585df2296cf48a3dd` |
+| EOFLOW-6.1.15-windows-setup.exe | `523abbda6bda34ccf472fa1a93ed9e66585dbdb1ff9c87ae5f0f8060712daeda` |
 | EOFLOW-6.1.15-linux-amd64.deb | `4b2fffe48bed7ac529396bb8e371bc599865bda6b428f92c1d55c2da526c054d` |
 | EOFLOW-6.1.15-linux-arm64.deb | `f78a8e3b1f883d3d1024dff8085011fad320868eed6d34b72e8d4ad986248b23` |
 
